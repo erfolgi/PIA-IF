@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DetailBeritaActivity"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+    <TextView
+        android:id="@+id/tanggal_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="25 Mar 2018" />
+
+    <TextView
+        android:id="@+id/judul_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Sidang Tugas Akhir" />
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="22dp" />
+    <TextView
+
+        android:id="@+id/deskripsi_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+
+
+        tools:text="Diberitahukan kepada mahasiswa semester tua bahwa sidang tugas akhir akan diadakan pada 12 Desember 2018, maka dari itu ndang dimarikno skripsimu." />
+
+    <ImageView
+        android:id="@+id/gambar_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/gambarberita"
+        />
+
+</LinearLayout>
