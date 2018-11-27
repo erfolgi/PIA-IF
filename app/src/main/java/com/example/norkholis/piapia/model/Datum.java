@@ -4,7 +4,6 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Datum {
-
     @SerializedName("id_berita")
     @Expose
     private String idBerita;
@@ -20,9 +19,9 @@ public class Datum {
     @SerializedName("tanggal")
     @Expose
     private String tanggal;
-    @SerializedName("tag")
+    @SerializedName("kategoricuy")
     @Expose
-    private String tag;
+    private String kategoricuy;
 
     public String getIdBerita() {
         return idBerita;
@@ -64,12 +63,11 @@ public class Datum {
         this.tanggal = tanggal;
     }
 
-    public String getTag() {
-        return tag;
+    public String getKategoricuy() {
+        return kategoricuy;
     }
 
-    public void setTag(String tag) {
-        this.tag = tag;
+    public void setKategoricuy(String kategoricuy) {
+        this.kategoricuy = kategoricuy;
     }
-
 }

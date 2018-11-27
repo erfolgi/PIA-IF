@@ -5,22 +5,27 @@
     android:layout_height="match_parent"
     tools:context=".fragment.ProsedurFragment"
     android:orientation="vertical">
-
-    <SearchView
-        android:id="@+id/SVprosedur"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:hint="@string/Cari"
-        android:iconifiedByDefault="false"
-        android:inputType="text"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin">
-    </SearchView>
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_searching"
+    <!--<SearchView-->
+        <!--android:id="@+id/SV_prosedur"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:hint="@string/Cari"-->
+        <!--android:iconifiedByDefault="false"-->
+        <!--android:inputType="text"-->
+        <!--android:paddingTop="@dimen/activity_vertical_margin"-->
+        <!--android:paddingBottom="@dimen/activity_vertical_margin">-->
+    <!--</SearchView>-->
+    <android.support.v4.widget.SwipeRefreshLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_prosedur"/>
+        android:id="@+id/sw_prosedur">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_prosedur"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_prosedur"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
 
 </LinearLayout>

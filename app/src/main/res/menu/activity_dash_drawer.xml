@@ -2,37 +2,42 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Berita" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Prosedur" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Dokumen" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+        <item android:title="@string/beritapia">
+            <menu>
+                <item
+                    android:id="@+id/nav_camera"
+                    android:icon="@drawable/ic_berita"
+                    android:title="@string/berita" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_prosedur"
+                    android:title="@string/prosedur" />
+                <item
+                    android:id="@+id/nav_slideshow"
+                    android:icon="@drawable/ic_dokumen"
+                    android:title="@string/dokumen" />
+                <!--<item-->
+                    <!--android:id="@+id/nav_manage"-->
+                    <!--android:icon="@drawable/ic_menu_manage"-->
+                    <!--android:title="@string/tools" />-->
+            </menu>
+        </item>
+        <item android:title="@string/perpustakaan">
+            <menu>
+                <item
+                    android:id="@+id/nav_skripsi"
+                    android:icon="@drawable/ic_book_black_24dp"
+                    android:title="@string/skripsi" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send" />
+            </menu>
+        </item>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Akun" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+
+
 
 </menu>

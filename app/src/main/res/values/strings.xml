@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PiaPia</string>
+    <string name="app_name">PIA-IF</string>
     <string name="title_activity_dash">DashActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -16,4 +16,22 @@
     <string name="Cari">Cari</string>
     <string name="gambarberita">GambarBerita</string>
     <string name="gambar_prosedur">Gambar Prosedur</string>
+    <string name="informasi_pia">Informasi PIA</string>
+    <string name="berita">Berita</string>
+    <string name="prosedur">Prosedur</string>
+    <string name="dokumen">Dokumen</string>
+    <string name="tools">Tools</string>
+    <string name="communicate">Communicate</string>
+    <string name="akun">Akun</string>
+    <string name="beritapia">Berita PIA</string>
+    <string name="perpustakaan">Perpustakaan</string>
+    <string name="skripsi">Skripsi</string>
+    <string name="abstrak">ABSTRAK</string>
+    <array name="bidangminat">
+        <item>All</item>
+        <item>Computer Intelligent System</item>
+        <item>Software Engineering</item>
+        <item>IT Network Security</item>
+        <item>IT Service Management</item>
+    </array>
 </resources>

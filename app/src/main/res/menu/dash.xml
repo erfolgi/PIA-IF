@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_all"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="All"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cis"
+        android:orderInCategory="100"
+        android:title="Computing and Intelligent System"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_seng"
+        android:orderInCategory="100"
+        android:title="Software Engineering"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_itns"
+        android:orderInCategory="100"
+        android:title="IT Network and Security"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_itsm"
+        android:orderInCategory="100"
+        android:title="IT Service and Management"
+        app:showAsAction="never" />
+
 </menu>
